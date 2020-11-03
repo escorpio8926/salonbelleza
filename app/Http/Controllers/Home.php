@@ -6,9 +6,16 @@ use Illuminate\Http\Request;
 
 class Home extends Controller
 {
-       public function index(){
-           return view('about');
+       public function us(){
+           return view('productos_servicios');
     }
+
+      public function contacto(){
+           return view('contact');
+    }
+
+
+
       
 
       

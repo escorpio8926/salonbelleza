@@ -11,8 +11,8 @@
 			<div class="logo">
 				<h1>
 					<a href="index.html" class="text-center">
-						beauty
-						<span class="d-block">Blog</span>
+						Belleza
+						<span class="d-block"></span>
 					</a>
 				</h1>
 			</div>
@@ -46,30 +46,15 @@
 				<div class="callbacks_container">
 					<ul class="rslides" id="slider3">
 						<li>
-							<div class="slider-img b1">
-								<div class="container">
-									<div class="slider_banner_info ml-md-5 pl-md-5">
-										<h4 class="text-uppercase font-weight-light">
-											lisa's blog
-										</h4>
-										<h3 class="bnr">lifestyle & beauty</h3>
-										<a href="about.html" class="w3ls-button">
-											<span>read more</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
 							<div class="slider-img b2">
 								<div class="container">
 									<div class="slider_banner_info ml-md-5 pl-md-5">
 										<h4 class="text-uppercase font-weight-light">
-											lisa's blog
+								
 										</h4>
-										<h3 class="bnr">lifestyle & beauty</h3>
+										<h3 class="bnr">Belleza & Elegancia </h3>
 										<a href="about.html" class="w3ls-button">
-											<span>read more</span>
+											<span>Leer más</span>
 										</a>
 									</div>
 								</div>
@@ -80,11 +65,26 @@
 								<div class="container">
 									<div class="slider_banner_info ml-md-5 pl-md-5">
 										<h4 class="text-uppercase font-weight-light">
-											lisa's blog
+										
+										</h4>
+										<h3 class="bnr">Estilo de vida</h3>
+										<a href="about.html" class="w3ls-button">
+											<span>Leer más</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slider-img b1">
+								<div class="container">
+									<div class="slider_banner_info ml-md-5 pl-md-5">
+										<h4 class="text-uppercase font-weight-light">
+											
 										</h4>
 										<h3 class="bnr">lifestyle & beauty</h3>
 										<a href="about.html" class="w3ls-button">
-											<span>read more</span>
+											<span>Leer más</span>
 										</a>
 									</div>
 								</div>

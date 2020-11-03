@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-	<title>Beauty Blog - Blog Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<title>Beauty Salon</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<meta name="keywords" content="Beauty Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -18,13 +18,13 @@
 	</script>
 	<!-- Custom CSS -->
 	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="{{ asset('css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
 	<!-- side nav css file -->
-	<link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css' />
+	<link href="{{ asset('css/SidebarNav.min.css') }}" media='all' rel='stylesheet' type='text/css' />
 	<!-- //side nav css file -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="{{ asset('css/style.css') }}" rel='stylesheet' type='text/css' />
 	<!-- font-awesome icons -->
-	<link href="css/fontawesome-all.min.css" rel="stylesheet">
+	<link href="{{ asset('css/fontawesome-all.min.css') }}" rel="stylesheet">
 	<!--webfonts-->
 	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
 	    rel="stylesheet">
@@ -48,109 +48,34 @@
 				<div class="container">
 					<ul class="sidebar-menu">
 						<li class="treeview   active">
-							<a href="index.html">
-								<span>Home</span>
+							<a href="/">
+								<span>Página principal</span>
 							</a>
 						</li>
 						<li class="treeview">
-							<a href="about.html">
-								<span>About</span>
+							<a href="Nosotros">
+								<span>Nosotros</span>
 							</a>
 						</li>
 						<li class="treeview">
-							<a href="blog.html">
-								<span>Default Blog</span>
+							<a href="productos">
+								<span>Productos y servicios</span>
 							</a>
 						</li>
 						<li class="treeview">
-							<a href="#">
-								<span>Blog styles</span>
-								<i class="fa fa-angle-left pull-right"></i>
+							<a href="blog">
+								<span>Galería</span>
 							</a>
-							<ul class="treeview-menu">
-								<li class="treeview">
-									<a href="#">
-										<span>variant1</span>
-										<i class="fa fa-angle-left pull-right"></i>
-									</a>
-									<ul class="treeview-menu">
-										<li>
-											<a href="blog_col_style1.html">
-												<i class="fa fa-angle-right"></i>style 1</a>
-										</li>
-										<li>
-											<a href="blog_col_style2.html">
-												<i class="fa fa-angle-right"></i>Style 2 </a>
-										</li>
-										<li>
-											<a href="blog_col_style3.html">
-												<i class="fa fa-angle-right"></i>style 3</a>
-										</li>
-									</ul>
-								</li>
-								<li class="treeview">
-									<a href="#">
-										<span>variant 2</span>
-										<i class="fa fa-angle-left pull-right"></i>
-									</a>
-									<ul class="treeview-menu">
-										<li>
-											<a href="blog_row_style1.html">
-												<i class="fa fa-angle-right"></i>style 1</a>
-										</li>
-										<li>
-											<a href="blog_row_style2.html">
-												<i class="fa fa-angle-right"></i>Style 2 </a>
-										</li>
-									</ul>
-								</li>
-								<li class="treeview">
-									<a href="#">
-										<span>variant 3</span>
-										<i class="fa fa-angle-left pull-right"></i>
-									</a>
-									<ul class="treeview-menu">
-										<li>
-											<a href="blog2_style1.html">
-												<i class="fa fa-angle-right"></i>style 1</a>
-										</li>
-										<li>
-											<a href="blog2_style2.html">
-												<i class="fa fa-angle-right"></i>Style 2 </a>
-										</li>
-									</ul>
-								</li>
-								<li class="treeview">
-									<a href="#">
-										<span>variant 4</span>
-										<i class="fa fa-angle-left pull-right"></i>
-									</a>
-									<ul class="treeview-menu">
-										<li>
-											<a href="single_col_1.html">
-												<i class="fa fa-angle-right"></i>Style 1</a>
-										</li>
-
-										<li>
-											<a href="single_col_2.html">
-												<i class="fa fa-angle-right"></i>Style 2</a>
-										</li>
-										<li>
-											<a href="single_col_3.html">
-												<i class="fa fa-angle-right"></i>Style 3</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
 						</li>
+				
 						<li class="treeview">
-							<a href="typo.html">
-								<span>Typography</span>
+							<a href="typo">
+								<span>Novias</span>
 							</a>
 						</li>
 						<li class="treeview">
-							<a href="contact.html">
-								<span>Contact</span>
+							<a href="contact">
+								<span>Contacto</span>
 							</a>
 						</li>
 					</ul>
@@ -159,12 +84,12 @@
 			<!-- //menu -->
 @show
 
-		<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="{{ asset ('js/jquery-2.2.3.min.js') }}"></script>
 	<!-- menu -->
-	<script src="js/menu.js"></script>
+	<script src="{{ asset ('js/menu.js') }}"></script>
 	<!-- //menu -->
 	<!-- banner responsiveslides -->
-	<script src="js/responsiveslides.min.js"></script>
+	<script src="{{ asset ('js/responsiveslides.min.js') }}"></script>
 	<script>
 		// You can also use "$(window).load(function() {"
 		$(function () {
@@ -186,13 +111,13 @@
 	</script>
 	<!-- //banner responsiveslides -->
 	<!-- side nav js -->
-	<script src='js/SidebarNav.min.js'></script>
+	<script src="{{ asset ('js/SidebarNav.min.js') }}"></script>
 	<script>
 		$('.sidebar-menu').SidebarNav()
 	</script>
 	<!-- //side nav js -->
 	<!-- search-bar -->
-	<script src="js/main.js"></script>
+	<script src="{{ asset ('js/main.js') }}"></script>
 	<!-- //search-bar-->
 	<!-- flexisel -->
 	<script>
@@ -244,16 +169,16 @@
 
 		});
 	</script>
-	<script src="js/jquery.flexisel.js"></script>
+	<script src="{{ asset ('js/jquery.flexisel.js') }}"></script>
 	<!-- move-top -->
-	<script src="js/move-top.js"></script>
+	<script src="{{ asset ('js/move-top.js') }}"></script>
 	<!-- easing -->
-	<script src="js/easing.js"></script>
+	<script src="{{ asset ('js/easing.js') }}"></script>
 	<!--  necessary snippets for few javascript files -->
-	<script src="js/Beautyblog.js"></script>
+	<script src="{{ asset ('js/Beautyblog.js') }}"></script>
 	<!-- smooth scroll -->
-	<script src="js/SmoothScroll.min.js"></script>
+	<script src="{{ asset ('js/SmoothScroll.min.js') }}"></script>
 	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.js "></script>
+	<script src="{{ asset ('js/bootstrap.js') }}"></script>
 
 

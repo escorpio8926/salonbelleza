@@ -1,43 +1,7 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html lang="zxx">
-
-<head>
-	<title>Beauty Blog - Blog Category Flat Bootstrap Responsive Website Template | About :: w3layouts</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<meta name="keywords" content="Beauty Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
-
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
-	<!-- Custom CSS -->
-	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- side nav css file -->
-	<link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css' />
-	<!-- //side nav css file -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	<!-- font-awesome icons -->
-	<link href="css/fontawesome-all.min.css" rel="stylesheet">
-	<!--webfonts-->
-	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-	    rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-</head>
+@include('layout.app')
 
 <body>
+
 	<!-- banner -->
 	<div class="w3l-hear-top">
 		<!-- header -->
@@ -46,8 +10,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="logo">
 				<h1>
 					<a href="index.html" class="text-center">
-						beauty
-						<span class="d-block">Blog</span>
+						Belleza
+						<span class="d-block"></span>
 					</a>
 				</h1>
 			</div>
@@ -72,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="clearfix"></div>
 			<!-- //search -->
-			
+			@yield('content')
 		</header>
 		<!-- //header -->
 	</div>
@@ -90,7 +54,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<li class="breadcrumb-item">
 				<a href="index.html">Home</a>
 			</li>
-			<li class="breadcrumb-item active" aria-current="page">About</li>
+			<li class="breadcrumb-item active" aria-current="page">Producto y Servicios</li>
 		</ol>
 	</nav>
 	<!-- //breadcrumbs -->
@@ -653,52 +617,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //footer container -->
 	</div>
 	<!-- //footer -->
-	<!-- js-->
-	<script src="js/jquery-2.2.3.min.js"></script>
-	<!-- menu -->
-	<script src="js/menu.js"></script>
-	<!-- //menu -->
-	<!-- banner responsiveslides -->
-	<script src="js/responsiveslides.min.js"></script>
-	<script>
-		// You can also use "$(window).load(function() {"
-		$(function () {
-			// Slideshow 4
-			$("#slider3").responsiveSlides({
-				auto: true,
-				pager: true,
-				nav: false,
-				speed: 500,
-				namespace: "callbacks",
-				before: function () {
-					$('.events').append("<li>before event fired.</li>");
-				},
-				after: function () {
-					$('.events').append("<li>after event fired.</li>");
-				}
-			});
-		});
-	</script>
-	<!-- //banner responsiveslides -->
-	<!-- side nav js -->
-	<script src='js/SidebarNav.min.js'></script>
-	<script>
-		$('.sidebar-menu').SidebarNav()
-	</script>
-	<!-- //side nav js -->
-	<!-- search-bar -->
-	<script src="js/main.js"></script>
-	<!-- //search-bar-->
-	<!-- move-top -->
-	<script src="js/move-top.js"></script>
-	<!-- easing -->
-	<script src="js/easing.js"></script>
-	<!--  necessary snippets for few javascript files -->
-	<script src="js/Beautyblog.js"></script>
-	<!-- smooth scroll -->
-	<script src="js/SmoothScroll.min.js"></script>
-	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.js "></script>
+
+	
 </body>
 
 </html>

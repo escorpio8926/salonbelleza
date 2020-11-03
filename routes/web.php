@@ -18,4 +18,5 @@ Route::get('/', function () {
 
 });
 
-Route::get('/about','Home@index');
+Route::get('/productos','Home@us');
+Route::get('/contact','Home@contacto');
