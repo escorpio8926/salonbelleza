@@ -1,6 +1,6 @@
 
 @include('layout.app')
-
+@yield('head')
 <body>
     <!-- header -->
     <header>
@@ -233,5 +233,5 @@
     <!-- js-->
 
 </body>
-
+@yield('script')
 </html>
