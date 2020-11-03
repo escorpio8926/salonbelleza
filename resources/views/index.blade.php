@@ -1,5 +1,5 @@
 @include('layout.app')
-
+@yield('head')
 <body>
 
 	<!-- banner -->
@@ -726,5 +726,5 @@
 	<!-- js-->
 
 </body>
-
+@yield('script')
 </html>
